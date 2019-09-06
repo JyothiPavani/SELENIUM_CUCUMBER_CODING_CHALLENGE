@@ -1,0 +1,28 @@
+@RunDiscovery
+Feature: Discovery Feature Validation
+
+  @tag1
+  Scenario Outline: Validate Discovery VIdeos URL with in My Account         [90m# features/Discovery.feature:5[0m
+    [36mGiven [0m[36mLaunch the URL "<URL>"[0m
+    [36mThen [0m[36mClick on Button "Enter_Serengeti"[0m
+    [36mThen [0m[36mClick on Button "Watch_Now"[0m
+    [36mThen [0m[36mClick on Button "Show_More"[0m
+    [36mThen [0m[36mSelect a List of Values "Episode_List" based on attribute "button":[0m
+    [36mThen [0m[36mClick on Button "Svg_Menu"[0m
+    [36mThen [0m[36mClick on Button "My_Videos"[0m
+    [36mThen [0m[36mScrollDown[0m
+    [36mThen [0m[36mValidate the List "Video_Name"[0m
+
+    Examples: 
+
+  @RunDiscovery @tag1
+  Scenario Outline: Validate Discovery VIdeos URL with in My Account         [90m# features/Discovery.feature:22[0m
+    [32mGiven [0m[32mLaunch the URL "[0m[32m[1mURL[0m[32m"[0m                                               [90m# Discovery_Step_Definition.launch_the_URL(String)[0m
+    [32mThen [0m[32mClick on Button "[0m[32m[1mEnter_Serengeti[0m[32m"[0m                                   [90m# Discovery_Step_Definition.click_on_Button(String)[0m
+    [32mThen [0m[32mClick on Button "[0m[32m[1mWatch_Now[0m[32m"[0m                                         [90m# Discovery_Step_Definition.click_on_Button(String)[0m
+    [32mThen [0m[32mClick on Button "[0m[32m[1mShow_More[0m[32m"[0m                                         [90m# Discovery_Step_Definition.click_on_Button(String)[0m
+    [32mThen [0m[32mSelect a List of Values "[0m[32m[1mEpisode_List[0m[32m" based on attribute "[0m[32m[1mbutton[0m[32m":[0m [90m# Discovery_Step_Definition.select_a_List_of_Values_based_on_attribute(String,String,DataTable)[0m
+    [32mThen [0m[32mClick on Button "[0m[32m[1mSvg_Menu[0m[32m"[0m                                          [90m# Discovery_Step_Definition.click_on_Button(String)[0m
+    [32mThen [0m[32mClick on Button "[0m[32m[1mMy_Videos[0m[32m"[0m                                         [90m# Discovery_Step_Definition.click_on_Button(String)[0m
+    [32mThen [0m[32mScrollDown[0m                                                          [90m# Discovery_Step_Definition.scrolldown()[0m
+    [32mThen [0m[32mValidate the List "[0m[32m[1mVideo_Name[0m[32m"[0m                                      [90m# Discovery_Step_Definition.validate_the_List(String)[0m

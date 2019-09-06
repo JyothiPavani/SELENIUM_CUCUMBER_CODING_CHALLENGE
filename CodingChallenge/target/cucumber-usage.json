@@ -1,0 +1,144 @@
+[
+  {
+    "source": "^Select a List of Values \"([^\"]*)\" based on attribute \"([^\"]*)\":$",
+    "steps": [
+      {
+        "name": "Select a List of Values \"Episode_List\" based on attribute \"button\":",
+        "aggregatedDurations": {
+          "average": 7.9190609,
+          "median": 7.9190609
+        },
+        "durations": [
+          {
+            "duration": 7.9190609,
+            "location": "features/Discovery.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^ScrollDown$",
+    "steps": [
+      {
+        "name": "ScrollDown",
+        "aggregatedDurations": {
+          "average": 1.2510289,
+          "median": 1.2510289
+        },
+        "durations": [
+          {
+            "duration": 1.2510289,
+            "location": "features/Discovery.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launch the URL \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Launch the URL \"URL\"",
+        "aggregatedDurations": {
+          "average": 15.5275705,
+          "median": 15.5275705
+        },
+        "durations": [
+          {
+            "duration": 15.5275705,
+            "location": "features/Discovery.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Validate the List \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Validate the List \"Video_Name\"",
+        "aggregatedDurations": {
+          "average": 2.8388911,
+          "median": 2.8388911
+        },
+        "durations": [
+          {
+            "duration": 2.8388911,
+            "location": "features/Discovery.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Button \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Click on Button \"Enter_Serengeti\"",
+        "aggregatedDurations": {
+          "average": 10.2801751,
+          "median": 10.2801751
+        },
+        "durations": [
+          {
+            "duration": 10.2801751,
+            "location": "features/Discovery.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "Click on Button \"Watch_Now\"",
+        "aggregatedDurations": {
+          "average": 7.8651222,
+          "median": 7.8651222
+        },
+        "durations": [
+          {
+            "duration": 7.8651222,
+            "location": "features/Discovery.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "Click on Button \"Show_More\"",
+        "aggregatedDurations": {
+          "average": 1.6491078,
+          "median": 1.6491078
+        },
+        "durations": [
+          {
+            "duration": 1.6491078,
+            "location": "features/Discovery.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "Click on Button \"Svg_Menu\"",
+        "aggregatedDurations": {
+          "average": 0.6736251,
+          "median": 0.6736251
+        },
+        "durations": [
+          {
+            "duration": 0.6736251,
+            "location": "features/Discovery.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "Click on Button \"My_Videos\"",
+        "aggregatedDurations": {
+          "average": 0.6740269,
+          "median": 0.6740269
+        },
+        "durations": [
+          {
+            "duration": 0.6740269,
+            "location": "features/Discovery.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]

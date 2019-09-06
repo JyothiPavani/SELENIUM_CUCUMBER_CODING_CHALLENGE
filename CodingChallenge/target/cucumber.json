@@ -1,0 +1,238 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19612634000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Discovery_Step_Definition.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate Discovery VIdeos URL with in My Account",
+        "description": "",
+        "id": "discovery-feature-validation;validate-discovery-videos-url-with-in-my-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15527570500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the URL \"URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 16
+                }
+              ],
+              "location": "Discovery_Step_Definition.launch_the_URL(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10280175100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Button \"Enter_Serengeti\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter_Serengeti",
+                  "offset": 17
+                }
+              ],
+              "location": "Discovery_Step_Definition.click_on_Button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7865122200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Button \"Watch_Now\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Watch_Now",
+                  "offset": 17
+                }
+              ],
+              "location": "Discovery_Step_Definition.click_on_Button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1649107800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Button \"Show_More\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show_More",
+                  "offset": 17
+                }
+              ],
+              "location": "Discovery_Step_Definition.click_on_Button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7919060900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select a List of Values \"Episode_List\" based on attribute \"button\":",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Episode_List",
+                  "offset": 25
+                },
+                {
+                  "val": "button",
+                  "offset": 59
+                }
+              ],
+              "location": "Discovery_Step_Definition.select_a_List_of_Values_based_on_attribute(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "VIDEO_LIST"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "EPISODE 2"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "EPISODE 3"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "EPISODE 4"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 673625100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on Button \"Svg_Menu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Svg_Menu",
+                  "offset": 17
+                }
+              ],
+              "location": "Discovery_Step_Definition.click_on_Button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 674026900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Button \"My_Videos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My_Videos",
+                  "offset": 17
+                }
+              ],
+              "location": "Discovery_Step_Definition.click_on_Button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1251028900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "ScrollDown",
+            "match": {
+              "location": "Discovery_Step_Definition.scrolldown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2838891100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate the List \"Video_Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Video_Name",
+                  "offset": 19
+                }
+              ],
+              "location": "Discovery_Step_Definition.validate_the_List(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@RunDiscovery"
+          },
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Discovery Feature Validation",
+    "description": "",
+    "id": "discovery-feature-validation",
+    "keyword": "Feature",
+    "uri": "features/Discovery.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@RunDiscovery"
+      }
+    ]
+  }
+]

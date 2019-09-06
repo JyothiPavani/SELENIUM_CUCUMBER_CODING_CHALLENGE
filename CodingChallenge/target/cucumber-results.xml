@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="68.291242">
+<testcase classname="Discovery Feature Validation" name="Validate Discovery VIdeos URL with in My Account" time="68.291242">
+<system-out><![CDATA[Given Launch the URL "URL"..................................................passed
+Then Click on Button "Enter_Serengeti"......................................passed
+Then Click on Button "Watch_Now"............................................passed
+Then Click on Button "Show_More"............................................passed
+Then Select a List of Values "Episode_List" based on attribute "button":....passed
+Then Click on Button "Svg_Menu".............................................passed
+Then Click on Button "My_Videos"............................................passed
+Then ScrollDown.............................................................passed
+Then Validate the List "Video_Name".........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
