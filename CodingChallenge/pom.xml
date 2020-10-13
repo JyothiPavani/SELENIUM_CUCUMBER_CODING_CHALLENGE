@@ -18,7 +18,7 @@
 		<screen-recorder>0.7.7</screen-recorder>
 		<log4j_version>1.2.17</log4j_version>
 		<JavaXmail_version>1.5.1</JavaXmail_version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<spring.version>4.1.6.RELEASE</spring.version>
 		<spring.data.version>1.8.0.RELEASE</spring.data.version>
 		<cucumber-picocontainer.version>1.2.4-SNAPSHOT</cucumber-picocontainer.version>
